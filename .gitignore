@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.onnx
+*.pt
+.venv/
+venv/
+*.jpg
+*.png
+*.mp4
+arsiv/
+gate/
+.DS_Store
