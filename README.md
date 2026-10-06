@@ -1,5 +1,10 @@
 # greenhouse-person-detection
 
+> **Status, October 2026.** This describes the August version of the system: YOLO11s proposes, a DINOv2 head verifies.
+> Production has since moved to a D-FINE-M student trained in-house (the 21 September model, replaced for people by a newer
+> one on 28 September). That code and the camera archive are not published. What this repo is still good for is the audit
+> below and the merge of six copies of one forward pass without changing the numbers.
+
 Person detection for a greenhouse that nobody is watching: YOLO11s proposes, a
 DINOv2 embedding + logistic head verifies, and a fair amount of offline tooling
 exists purely to answer one question — *does any of this actually work?*
